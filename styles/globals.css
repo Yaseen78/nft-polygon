@@ -1,0 +1,18 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    background-image: radial-gradient(99.1% 99.1% at 48.93% 0.9%, #472049 11.15%, #252B3D 61.62%);
+    background-repeat: no-repeat;
+    /* background: #252B3D; */
+    width:100vw;
+    min-height: 100vh;
+    height:100%;
+    color: white;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+
+}
